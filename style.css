@@ -1,0 +1,343 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+    font-family: 'Playfair Display', serif;
+
+}
+
+.bgimg{
+    background: linear-gradient(rgba(44, 43, 43, 0.644), rgba(34, 33, 33, 0.5)), url("photos/hotel.jpg");
+    background-size:  center center/cover;
+    background-attachment: fixed;
+    width: 100%;
+    height: 600px;
+}
+#showcase .in, .out, .gues{
+    margin-top: 20px;
+    padding:10px 0 5px 0;
+    background-color: #ffff;
+    color:#000;
+}
+#showcase .btt{
+    margin-top: 20px;
+    padding: 60px 20px;
+    border: none;
+    color:#ffff;
+    letter-spacing: 0.3;
+    background-color: rgb(66, 64, 64);
+    font-size: 16px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color:rgba(153, 153, 153, 0.685);
+}
+#showcase .btt:hover{
+    background-color: rgb(31, 29, 29);
+}
+#showcase .in h5, .out h5, .gues h5{
+    font-size: 16px;
+    padding: 5px 30px;
+}
+  .header{
+    padding-top: 200px;
+   
+}
+.header h1{
+    font-size: 65px;
+    font-weight: bolder;
+    letter-spacing: 0.2;
+}
+/*----*/
+.left{
+    background-color: rgb(19, 18, 18);  
+    padding-top: 50px;
+   
+} 
+.left h1{
+    padding:0 0px 5px 40px;
+    color: white;
+    font-size: 52px;  
+    display: inline-block;
+}
+.left h2{
+    padding-left: 40px;
+    color: rgb(223, 198, 90);
+    font-size: 50px;
+}
+.left p{
+    padding-top: 60px;
+    padding-left: 30px;
+    font-size: 14px;
+    color:rgb(95, 95, 92);
+    line-height: 1.7rem;
+    width: 80%;
+    text-align: justify;
+    font-family:  serif;
+    margin-left: 50px;
+}
+.right{
+    background-color: rgb(19, 18, 18);
+}
+.right p{
+    padding-top:200px;
+    padding-left: 20px;
+    font-size: 14px;
+    color:rgb(95, 95, 92);
+    line-height: 1.7rem;
+    width:60%;
+    text-align: justify;
+    font-family: sans-serif;
+}
+.left .btn-secondary{
+    margin-left: 100px;
+    font-size: 14px;
+    font-family: sans-serif;
+    text-transform: uppercase;
+}
+#gree{
+    margin-top: 70px;
+}
+#gree h5{
+    font-size: 20px;
+    padding-bottom: 10px;
+}
+#gree h1{
+    font-size: 50px;
+    padding: 30px;
+    letter-spacing: 0.2;
+}
+.line{
+    margin: auto auto;
+    width: 40px;
+}
+#gree p{
+    color:rgb(95, 95, 92);
+    font-size: 16px;
+}
+.rimage .btn{
+    background-color: #b3926c;
+    color: #ffff;
+    position: absolute;
+    bottom: 20px;
+    right: 18px;
+    font-size: 12px;
+    
+}
+#gree .card-text{
+    position: absolute;
+    bottom: 8px;
+    left: 16px;
+    font-size: 14px;
+    font-family: sans-serif;
+}
+/*888*/
+.hovereffect {
+    width:100%;
+    height:100%;
+    float:left;
+    overflow:hidden;
+    position:relative;
+    cursor:default;
+    }
+
+.hovereffect img {
+    display:block;
+    position:relative;
+    -webkit-transition:all .3s linear;
+    transition:all .4s linear;
+    }
+
+.hovereffect:hover img {
+    -ms-transform:scale(1.2);
+    -webkit-transform:scale(1.2);
+    transform:scale(1.2);
+    }
+    /*---*/
+#service{
+    margin-top: 90px;
+}
+.blue{
+    background: linear-gradient(rgba(44, 43, 43, 0.644), rgba(34, 33, 33, 0.5)), url("photos/h2.jpeg");
+    background-size:  center center/cover;
+    background-attachment: fixed;
+    width: 100%;
+    height: 800px;
+}
+.clist{
+    background-color: #b3926c;
+}
+#service h1{
+    font-size: 50px;
+    letter-spacing: 0.3;
+}
+#service .btn{
+    background-color:  #b3926c;
+    padding: 5px 5px;
+    
+}
+.clist p{
+    color:rgb(95, 95, 92);
+    font-size: 14px;
+    padding-top: 5px;
+}
+#service .list-group-item{
+    color:rgb(145, 141, 141);
+    font-family: sans-serif; 
+    font-size: 14px;
+}
+/*---*/
+#around{
+    margin-top: 60px;
+}
+#around h1{
+    text-align: center;
+    font-size: 45px;
+    padding: 40px;
+}
+#around .btn:hover{
+
+   background: transparent;
+   color: rgb(145, 137, 137);
+}
+#around .btn{
+    border:none;
+    position: absolute;
+    top: 75%;
+    left: 45%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    font-size: 25px;
+    padding: 12px 24px;
+    text-align: center;
+    font-weight: 500;
+    letter-spacing: 0.2;
+    color: tomato;
+}
+#around .card-text{
+    position: absolute;
+    top: 80%;
+    left: 30%;
+    text-align: justify;
+    font-size: 14px;
+    padding: 10px;
+}
+/*----*/
+#fantasi{
+    margin-top: 60px;
+}
+.hut{
+    background:url("photos/hut.jpeg");
+    background-size:  center center/cover;
+    background-attachment: fixed;
+    width: 100%;
+    height: 800px;
+}
+.hut h1{
+    font-size: 55px;
+    text-align: center;
+    color: #ffff;
+    padding: 50px 0;
+}
+
+#box{
+    margin-left: 75px;
+    background-color: #b3926c;
+    display: inline-flex;
+    width: 85%;
+    height: 240px;
+}
+.photo{
+    display: inline-flex;
+    box-sizing: border-box;
+}
+
+.jum-text{
+    display: inline-block;
+    font-size: 14px;
+    line-height: 1.5em;
+    font-family: serif;
+    margin-left: 20px;
+    color:rgb(221, 195, 195);
+    letter-spacing: 0.1em;
+    font-weight: 100;
+}
+.jum-text1{
+    display: inline-block;
+    font-size: 14px;
+    line-height: 1.5em;
+    font-family: serif;
+    margin-right: 20px;
+    color:rgb(221, 195, 195);
+    letter-spacing: 0.1em;
+    font-weight: 100;
+}
+.jum-text1 b{
+    float: right;
+}
+.jum-text1 i{
+    float: right;
+}
+/*----*/
+.head{
+    font-size: 55px;
+    text-align: center;
+     padding: 50px 0;
+}
+/*----*/
+#end{
+    margin-top: 5px;
+}
+.main{
+    background-color: rgb(39, 38, 38);
+}
+.leftside{
+    padding: 30px 0;
+}
+#end .fab  {
+    padding: 10px 10px;
+}
+.center{
+    padding: 30px 0;
+}
+.rightside{
+    padding: 30px 0;
+}
+.leftside p, .rightside p, .center p{
+    font-size: 12px;
+    text-transform: uppercase;
+    font-family: serif;
+    color: rgb(95, 95, 92);
+    letter-spacing: 0.1em;
+    line-height: 1.5;
+    padding-left: 5px;
+}
+.leftside h4, .rightside h4, .center h4{
+    font-size: 30px;
+    padding: 10px 0;
+    letter-spacing: 0.1em;
+}
+.rightside .btn-group input[type=text]{
+    background-color: black;
+    border: 1px solid black;
+    color: rgb(224, 211, 211);
+}
+.rightside .btn-group{
+    padding: 10px;
+}
+.rightside .btn{
+    background-color: #b3926c;
+    text-transform: uppercase;
+    font-size: 14px;
+    color: white;
+    font-family: sans-serif;
+}
+.foot{
+    height: 100px;
+    margin-top: 0;
+    background-color: rgb(77, 75, 75);
+}
+.foot p{
+    padding: 30px;
+    color: #ffff;
+    letter-spacing: .1em;
+    font-weight: 500;
+}
